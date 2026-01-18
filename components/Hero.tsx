@@ -9,10 +9,6 @@ declare global {
 
 export const Hero: React.FC = () => {
   const handleJoinClick = () => {
-    // Track Lead event for Meta Pixel when clicking the CTA
-    if (window.fbq) {
-      window.fbq('track', 'Lead', { content_name: 'Telegram Join Click' });
-    }
     window.open('https://t.me/ars_devv', '_blank');
   };
 
