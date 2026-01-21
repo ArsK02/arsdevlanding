@@ -11,13 +11,13 @@ export const Footer: React.FC = () => {
             <span className="text-purple-400 font-mono">&gt;</span>
         </div>
         <p className="text-gray-500 text-sm mb-6">
-          Empowering developers through AI and modern engineering.
+          Built by dev for devs
         </p>
-        <div className="flex justify-center gap-8 text-gray-400 text-sm">
+        {/* <div className="flex justify-center gap-8 text-gray-400 text-sm">
           <a href="https://t.me/ars_devv" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Telegram</a>
           <a href="#" className="hover:text-white transition-colors">Community</a>
           <a href="#" className="hover:text-white transition-colors">Resources</a>
-        </div>
+        </div> */}
         <div className="mt-8 text-[10px] text-gray-700 uppercase tracking-widest mono">
           © {new Date().getFullYear()} ARS DEV HUB • ALL RIGHTS RESERVED
         </div>

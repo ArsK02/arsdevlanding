@@ -13,6 +13,9 @@ export const Features: React.FC = () => {
   return (
     <section className="py-20 px-4 bg-black/50">
       <div className="container mx-auto max-w-6xl">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-extrabold gradient-text">Why developers join ArsDev?</h2>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FeatureCard 
             title="AI Insights"
@@ -25,7 +28,7 @@ export const Features: React.FC = () => {
             icon={<svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>}
           />
           <FeatureCard 
-            title="Community"
+            title="+2K Community"
             desc="Network with forward-thinking developers who are building the next generation of software."
             icon={<svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>}
           />
